@@ -1,0 +1,85 @@
+.service__text {
+    h2 {
+        font-family: 'Be Vietnam';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 56px;
+        color: #303030;
+    }
+    p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #303030;
+    }
+}
+.Card__cont {
+    margin-top: 8%;
+    .service__card {
+        position: relative;
+        width: 100%;
+        .img-2 {
+            position: absolute;
+            top: 25%;
+        }
+        h2 {
+            position: absolute;
+            bottom: 30%;
+            font-style: normal;
+            text-align: center;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+    .service__card-2 {
+        margin-bottom: 50%;
+    }
+}
+@media (max-width: 767.5px) {
+    .service__card-2 {
+        margin-bottom: unset !important;
+    }
+}
+@media (max-width: 575.5px) {
+    .service__text {
+        h2 {
+            font-size: 38px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }   
+}
+@media (max-width: 420.5px) {
+    .service__text {
+        h2 {
+            font-size: 34px;
+            line-height: 40px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }   
+}
+@media (max-width: 360.5px) {
+    .service__text {
+        h2 {
+            font-size: 28px;
+            line-height: 40px;
+        }
+        p {
+            font-size: 10px;
+            line-height: 18px;
+        }
+    }   
+}
+@media (max-width: 339.5px) {
+    .Card__cont {
+        .img-2 {
+            top: 18% !important;
+        }
+    }
+}

@@ -1,0 +1,209 @@
+.what__container {
+    h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 63px;
+        color: #303030;
+        font-family: 'Be Vietnam';
+    }
+    p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    div {
+        padding-top: 0;
+        box-sizing: border-box;
+        width: 300px;
+        height: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        // background-color: red;
+        img {
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+.button__group {
+    .button {
+        background: #A685E2;
+        border-radius: 66px;
+        // font-family: 'Be Vietnam';
+        font-style: normal;
+        border: 2px solid #A685E2;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 38px;
+    }
+    .ad__btn {
+        background-color: #fff;
+        color: #A685E2;
+        // border: 2px solid #A685E2;
+    }
+}
+.what__recent {
+    h2 {
+        font-family: 'Be Vietnam';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 50px;
+        color: #303030;
+    }
+    small {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 31px;
+        color: #303030;
+    }
+    .stack__cont {
+        position: relative;
+        // height: 380px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: red;
+        div {
+            h2 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 20px;
+    
+            }
+            small {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+            }
+    
+        }
+    }
+    .what__text {
+        h1 {
+            font-family: 'Be Vietnam';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 73px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .what__container {
+        h1 {
+            font-size: 40px;
+            line-height: 63px;
+        }
+    }  
+    .what__recent {
+        h2 {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        .what__text {
+            h1 {
+                font-size: 40px;
+                line-height: 60px;
+            }
+        }
+    } 
+}
+
+@media (max-width: 520px) {
+    .what__container {
+        h1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 63px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 20px;
+        }
+    }  
+    .what__recent {
+        h2 {
+            font-family: 'Be Vietnam';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 30px;
+            color: #303030;
+        }
+        small {
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .what__text {
+            h1 {
+                font-family: 'Be Vietnam';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 48px;
+            }
+        }
+    } 
+}
+
+@media (max-width: 400px) {
+    .what__container {
+        h1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 63px;
+        }
+        p {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }  
+    .what__recent {
+        h2 {
+            font-family: 'Be Vietnam';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 26px;
+            color: #303030;
+        }
+        .what__text {
+            h1 {
+                font-size: 25px;
+                line-height: 40px;
+            }
+        }
+    } 
+}
+
+@media (max-width: 340px) {
+    .what__container {
+        h1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        p {
+            font-size: 10px;
+            line-height: 16px;
+        }
+    }  
+    .what__recent {
+        .what__text {
+            h1 {
+                font-size: 24px;
+                line-height: 40px;
+            }
+        }
+    } 
+}

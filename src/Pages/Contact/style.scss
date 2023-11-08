@@ -1,0 +1,129 @@
+.contact {
+    .contact__container {
+        .contact__header__text {
+            h1 {
+                font-family: 'Be Vietnam';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+            }
+            p {
+                font-style: normal;
+                font-weight: 550;
+                font-size: 18px;
+            }
+        }
+        .contact__img {
+            img {
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+    }
+    .form__container {
+        width: 70%;
+        input {
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid rgba(48, 48, 48, 0.58);
+            padding-bottom: 5px;
+            font-style: normal;
+            font-weight: 600;
+            outline: none;
+            font-size: 20px;
+            // color: rgba(48, 48, 48, 0.58);
+            ::placeholder {
+                color: rgba(48, 48, 48, 0.58) !important;
+            }
+            // margin-top: 20px;
+        }
+        textarea {
+            color: rgba(48, 48, 48, 0.58);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 5px;
+            // margin: 0;
+            overflow-y: hidden;
+            outline: none;
+            border: none;
+            width: 100%;
+            resize: none;
+            border-bottom: 2px solid rgba(48, 48, 48, 0.58);
+            overflow: hidden;
+            // height: 10px;
+        }
+        .submit__btn {
+            background-color: #F092CB;
+            outline: none;
+            border: none;
+        }
+    }
+}
+
+@media (max-width: 991.5px) {
+    .contact {
+        .contact__container {
+            .contact__header__text {
+                h1 {
+                    font-size: 40px;
+                    line-height: 60px;
+                }
+                p {
+                    font-style: normal;
+                    font-weight: 550;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .form__container {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 468px) {
+    .contact {
+        .contact__container {
+            .contact__header__text {
+                h1 {
+                    font-size: 35px;
+                    line-height: 60px;
+                }
+                p {
+                    font-style: normal;
+                    font-weight: 550;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .form__container {
+        width: 90% !important;
+        input {
+            font-size: 16px !important;
+        }
+        textarea {
+            font-size: 16px !important;
+        }
+    }
+}
+
+@media (max-width: 468px) {
+    .contact {
+        .contact__container {
+            .contact__header__text {
+                h1 {
+                    font-size: 30px;
+                    line-height: 60px;
+                }
+                p {
+                    font-style: normal;
+                    font-weight: 550;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

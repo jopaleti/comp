@@ -1,0 +1,154 @@
+.help__container {
+    h2 {
+        font-family: 'Be Vietnam';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 51px;
+        color: #303030;
+    }
+    small {
+        font-family: 'Be Vietnam';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 37px;
+    }
+    .button__group {
+        // Width was set
+        // width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        span {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 38px;
+            color: #6155A6;
+        }
+    }
+    .help__image {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        .vector__img {
+            position: absolute;
+            height: 300px;
+            width: 350px;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            img {
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .help__container {
+        .help__image {
+            height: 340px;
+            // background-color: red;
+            width: 90%;
+            .vector__img {
+                position: absolute;
+                height: 300px;
+                width: 300px;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .help__container {
+        .help__image {
+            height: 300px;
+            // background-color: red;
+            width: 100%;
+            .vector__img {
+                position: absolute;
+                height: 300px;
+                width: 280px;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+@media (max-width: 471px) {
+    .help__container {
+        h2 {
+            font-size: 40px;
+        }
+        small {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 401px) {
+    .help__container {
+        h2 {
+            font-size: 35px;
+        }
+        small {
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width: 373px) {
+    .help__container {
+        .help__image {
+            height: 300px;
+            // background-color: red;
+            width: 100%;
+            .vector__img {
+                position: absolute;
+                height: 280px;
+                width: 260px;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+@media (max-width: 347px) {
+    .help__container {
+        h2 {
+            font-size: 32px;
+        }
+        small {
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width: 333px) {
+    .help__container {
+        .help__image {
+            height: 280px;
+            // background-color: red;
+            width: 100%;
+            .vector__img {
+                position: absolute;
+                height: 250px;
+                width: 250px;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}

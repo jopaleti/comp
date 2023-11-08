@@ -1,0 +1,169 @@
+.about {
+    .main {
+        .about__container {
+            h2 {
+                font-family: 'Be Vietnam';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 63px;
+                text-align: center;
+            }
+            small {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .about__image {
+                height: 200px;
+                width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                img {
+                    object-fit: contain;
+                    object-position: center;
+                }
+            }
+        }
+        .about__gallery {
+            .gal__cont{
+                width: 60%;
+                margin: auto;
+                height: auto;
+            }
+            .gal__cont2 {
+                width: 60%;
+                height: auto;
+            }
+        }
+        .what__text {
+            h1 {
+                font-family: 'Be Vietnam';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 45px;
+                line-height: 73px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767.5px) {
+    .about {
+        .main {
+            .about__container {
+                h2 {
+                    font-size: 40px;
+                    line-height: 50px;  
+                }
+                small {
+                    font-size: 13px;
+                }
+            }
+            .what__text {
+                h1 {
+                    font-size: 40px;
+                    line-height: 73px;
+                }
+            }
+        }
+    }
+    .about__gallery {
+        .gal__cont2 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (max-width: 487.5px) {
+    .about {
+        .main {
+            .about__container {
+                h2 {
+                    font-size: 35px;
+                    line-height: 50px;  
+                }
+                small {
+                    font-size: 12px;
+                }
+            }
+            .what__text {
+                h1 {
+                    font-size: 35px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 429.5px) {
+    .about {
+        .main {
+            .about__container {
+                h2 {
+                    font-size: 30px;
+                    line-height: 45px;  
+                }
+                small {
+                    font-size: 10px;
+                    line-height: 18px;
+                }
+            }
+            .what__text {
+                h1 {
+                    font-size: 30px;
+                    line-height: 45px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 371.5px) {
+    .about {
+        .main {
+            .about__container {
+                h2 {
+                    font-size: 25px;
+                    line-height: 40px;  
+                }
+                small {
+                    font-size: 12px;
+                    line-height: 12px;
+                }
+            }
+            .what__text {
+                h1 {
+                    font-size: 25px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 313.5px) {
+    .about {
+        .main {
+            .about__container {
+                h2 {
+                    font-size: 23px;
+                    line-height: 40px;  
+                }
+                small {
+                    font-size: 10px;
+                    line-height: 18px;
+                }
+            }
+            .what__text {
+                h1 {
+                    font-size: 23px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
