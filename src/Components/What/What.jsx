@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 import {Container, Row, Col} from 'react-bootstrap';
-import { mac, Rectangle5, Rectangle6, Rectangle7, Rectangle8, work } from '../../Assets';
+import {  Rectangle5, Rectangle6, Rectangle7, Rectangle8, work } from '../../Assets';
 import Button from '../Button/Button';
 
 function What({color}) {
